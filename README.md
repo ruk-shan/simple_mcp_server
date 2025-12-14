@@ -1,4 +1,4 @@
-## run ollama on docke r## 
+## run ollama on docker ## 
     docker run -d --gpus=all -v ollama:/root/.ollama -p 11411:11434 --name ollama ollama/ollama
 
 ## pull a model ## 
